@@ -1,0 +1,26 @@
+#horizontal_box {position:absolute; width:100%; top:80%;height:20%;background-color:rgba(255,0,0,0);left:0%;border-width: 0px;}
+
+#horizontal_box > Button {position:absolute; top:50%; width: 15%; border-width:5px;translate: -50% -50%;border-radius: 8px;border-color:black;
+transition: background-color, 0.7s;}
+
+#menu_1 {left:12.5%;background-color:rgba(255,0,0,0.5);}
+#menu_2 {left:37.5%;background-color:rgba(255,0,0,0.5);}
+#menu_3 {left:62.5%;background-color:rgba(255,0,0,0.5);}
+#menu_4 {left:87.5%;background-color:rgba(255,0,0,0.5);}
+
+#menu_1:hover {left:12.5%;background-color:rgba(0,255,200,0.5);}
+#menu_2:hover {left:37.5%;background-color:rgba(0,255,200,0.5);}
+#menu_3:hover {left:62.5%;background-color:rgba(0,255,200,0.5);}
+#menu_4:hover {left:87.5%;background-color:rgba(0,255,200,0.5);}
+
+#vertical_box {position:absolute;left:100%;width:20%;height:70%;top:10%;background-color:rgba(0,0,255,0);border-width: 0px;}
+
+#vertical_box > Button {position:absolute; left:50%;translate:-50% -50%;width:80%;border-width:5px; border-radius: 8px; border-color:black;transition: background-color, 0.7s;}
+
+#submenu_1 {top:16.7%;background-color:rgba(0,255,255,0.5);}
+#submenu_2 {top:50%;background-color:rgba(0,255,255,0.5);}
+#submenu_3 {top:83.33%;background-color:rgba(0,255,255,0.5);}
+
+#submenu_1:hover {background-color:rgba(255,0,0,0.5);}
+#submenu_2:hover {background-color:rgba(255,0,0,0.5);}
+#submenu_3:hover {background-color:rgba(255,0,0,0.5);}
